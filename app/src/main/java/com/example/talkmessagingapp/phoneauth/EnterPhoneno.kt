@@ -27,7 +27,7 @@ class EnterPhoneno : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
         val actionBar = supportActionBar
-        actionBar!!.title = "Talk"
+        actionBar!!.title = "Talk Login"
 
 
         binding.btnGetotp.setOnClickListener {
