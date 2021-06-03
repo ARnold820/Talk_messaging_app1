@@ -43,36 +43,39 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/phone_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:id="@+id/phone_layout"
-        android:layout_marginTop="256dp"
-        android:layout_marginBottom="353dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/et_phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20sp"
-        android:hint="@string/phone_no"
-        android:inputType="number"
-        android:padding="10dp"
-        android:singleLine="true"
-        android:autofillHints="false"
-        tools:ignore="TextFields" />
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:autofillHints="false"
+            android:background="@color/teal_700"
+            android:hint="@string/phone_no"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            tools:ignore="TextFields" />
 
-    <Button
-        android:id="@+id/btn_getotp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30sp"
-        android:background="@color/teal_700"
-        android:text="@string/get_otp"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_getotp"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="525dp"
+            android:background="@color/teal_700"
+            android:text="@string/get_otp"
+            android:textAllCaps="false" />
     </LinearLayout>
+
 
 
 
