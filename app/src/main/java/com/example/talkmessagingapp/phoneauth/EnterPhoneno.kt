@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.example.talkmessagingapp.R
+//import com.example.talkmessagingapp.R
 import com.example.talkmessagingapp.databinding.ActivityEnterPhonenoBinding
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.*
@@ -24,9 +24,10 @@ class EnterPhoneno : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding: ActivityEnterPhonenoBinding = ActivityEnterPhonenoBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_main)
+        val view = binding.root
+        setContentView(view)
         val actionBar = supportActionBar
-        actionBar!!.title = "Login to Talk"
+        actionBar!!.title = "Talk"
 
 
         binding.btnGetotp.setOnClickListener {

@@ -8,11 +8,14 @@ import com.example.talkmessagingapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+
     lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding: ActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_main)
+        val view = binding.root
+        setContentView(view)
 
          binding.Loginpage.setOnClickListener {
              val intent = Intent(this, EnterPhoneno::class.java)
