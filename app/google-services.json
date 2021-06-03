@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918724513392",
+    "project_id": "talk-messaging-app-ada7c",
+    "storage_bucket": "talk-messaging-app-ada7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918724513392:android:973a022a9a577bc0826eb5",
+        "android_client_info": {
+          "package_name": "com.example.talkmessagingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918724513392-pgjd2nr9175tmtarv8u6mrq51reku17u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcx7Ev-FclkAJUxxLkz0h2j8IVxPM9YNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918724513392-pgjd2nr9175tmtarv8u6mrq51reku17u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

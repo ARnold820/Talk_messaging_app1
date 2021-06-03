@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Talk messaging app</string>
+    <string name="press_continue_to_move_on_to_the_login_page">Press Continue to move on to the Login Page</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="get_otp">Get OTP</string>
+</resources>

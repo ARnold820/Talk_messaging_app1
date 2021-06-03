@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".phoneauth.EnterPhoneno">
+
+    <LinearLayout
+        android:id="@+id/otp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_marginTop="256dp"
+        android:layout_marginBottom="353dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:hint="@string/enter_otp"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:background="@color/teal_700"
+            android:text="@string/sign_up"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/phone_layout"
+        android:layout_marginTop="256dp"
+        android:layout_marginBottom="353dp"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:hint="@string/phone_no"
+        android:inputType="number"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:autofillHints="false"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btn_getotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:background="@color/teal_700"
+        android:text="@string/get_otp"
+        android:textAllCaps="false" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+        
+
