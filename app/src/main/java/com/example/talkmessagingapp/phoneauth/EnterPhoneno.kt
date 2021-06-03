@@ -19,10 +19,11 @@ class EnterPhoneno : AppCompatActivity() {
     lateinit var resendToken: PhoneAuthProvider.ForceResendingToken
     private lateinit var callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks
 
-    private lateinit var binding: ActivityEnterPhonenoBinding
+    lateinit var binding: ActivityEnterPhonenoBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val binding: ActivityEnterPhonenoBinding = ActivityEnterPhonenoBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_main)
         val actionBar = supportActionBar
         actionBar!!.title = "Login to Talk"
